@@ -1,0 +1,282 @@
+
+/* ------------------- TEXT STYLES---------------------------
+/
+
+
+
+
+
+
+.top-container {
+
+
+
+  
+}
+
+/*
+.navigation-container > .left-column {
+
+  justify-content: space-between;
+}
+
+
+
+.navigation-container> .center-column {
+
+  justify-content: space-between;
+}
+
+
+.navigation-container > .right-column {
+
+  justify-content: space-between;
+
+}
+
+
+---------- COLORS ----------
+
+PRIMARY
+Base: #339af0 (Sky Blue)
+Tint: #d0ebff (Arctic)
+Shade: #1c7ed6 (Deep Sea)
+
+SECONDARY
+Base: #9775fa (Lavendar)
+Tint: #e5dbff (Moonligh Iris)
+Shade: #7048e8 (Velvet Night)
+
+TERTIARY
+Base: #ff922b (Pumpkin)
+Tint: #ffe8cc (Dawn)
+Shade: #f76707 (Lava)
+
+GREY
+Base: #495057 (Slate)
+Tint: #f1f3f5 (Pebble)
+Shade: #212529 (Graphite)
+White: #ffffff (White)
+Black: #000000 (Black)
+
+
+
+
+---------- TYPOGRAPHY ----------
+
+FONT SIZES
+12px / 16px / 20px / 24px / 32px / 40px / 48px / 62px
+
+FONT WEIGHTS
+400 / 700
+
+LINE HEIGHTS
+1.2 / 1.5
+
+LETTER SPACING
+0 / -2px
+
+FONT FAMILY
+Poppins
+
+
+
+/*----------------- COMPONENTS---------------------------------*/
+
+
+.BODY {
+
+  background-color: blue;
+}
+
+
+
+.navbar{
+display: flexbox;
+background-color: rgb(56, 47, 47);
+justify-content: space-between;
+}
+
+
+
+
+
+.btn-left {
+  flex:1;
+  text-decoration: none;
+ 
+  padding: 1.5 rem 3 rem;
+  
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: 900;
+  justify-content:left 
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn {
+  flex:1;
+  text-decoration: none;
+ 
+  padding: 1.5 rem 3 rem;
+  
+  border-radius: 8px;
+  font-size: 30px;
+  font-weight: ;
+  
+  
+}
+
+.btn:hover {
+  color: green;
+  
+}
+
+.btn:active {
+  color: yellow;
+  
+}
+
+.btn:link {
+  color: #ffffff;
+  
+}
+
+
+
+.btn:visited {
+ color: rgb(238, 237, 242);
+  
+}
+
+
+
+/*-- estilos de navegacion--*/
+
+
+*{
+
+  background-color: rgb(0, 0, 13);
+}
+
+
+.navbar{
+display: flex;
+background-color: rgb(56, 47, 47);
+justify-content: space-between;
+
+
+
+}
+
+.hero-section { 
+  
+  background-color: #010e0a;
+  display: flex;
+  font-size: 22px ;
+  font-family: LATO, sans-serif;
+  
+
+
+}
+
+
+/* columna de la imagen */
+.column-two {
+
+flex:1;
+background-color: lightcoral;
+
+}
+
+
+
+/* columna del texto */
+.column-one {
+
+flex:1;
+background-color: rgb(1, 13, 17);
+color: #ffffff;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+background-color: blanchedalmond;
+font-size:20px;
+display: flex;
+}
+
+
+.flexitem {
+
+  flex: 1;
+
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 5px;
+  background-color: #00050a;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  position: sticky;
+  display:flex;
+  justify-content: space-between;
+
+
+  
+}
+
+
+
+
+
+
+
+
+
+
